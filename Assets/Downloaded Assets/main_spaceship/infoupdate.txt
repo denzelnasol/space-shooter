@@ -1,0 +1,46 @@
+update
+
+ship_1, 2 colorversion
+184 x 179 size
+17 frames
+
+ship_2, 2 colorversion
+194 x 206 size
+17 frames
+
+ship_3, 2 colorversion
+208 x 181 size
+17 frames
+
+ship_4, 2 colorversion
+178 x 153 size
+17 frames
+
+sidekick 1, 2 colorversion
+94 x 112 size
+18 frames
+
+sidekick 2, 2 colorversion
+78 x 99 size
+18 frames
+
+powerup, 3 colorversion
+112 x 115 size
+16 frames
+
+missleup, 3 colorversion
+124 x 124 size
+16 frames
+
+optionup, 3 colorversion
+108 x 116 size
+16 frames
+
+star, 1 colorversion
+152 x 152 size
+16 frames
+
+thurstflame, 2 colorversion
+143 x 167 size
+16 frames
+

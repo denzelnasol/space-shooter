@@ -1,0 +1,18 @@
+horizontal
+
+ship_1, 2 colorversion
+170 x 173
+17 frames
+
+ship_2, 2 colorversion
+196 x 188
+17 frames
+
+ship_3, 2 colorversion
+177 x 201
+17 frames
+
+ship_4, 2 colorversion
+163 x 174
+17 frames
+

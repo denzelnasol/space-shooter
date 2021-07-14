@@ -47,3 +47,6 @@ TagManager:
   - name: Stars
     uniqueID: 3078547601
     locked: 0
+  - name: Foreground
+    uniqueID: 3695847883
+    locked: 0

@@ -1,0 +1,103 @@
+Spaceships
+
+spaceship_1
+
+size 138 x 150
+10 frames left , 10 frames right
+
+spaceship_2
+
+size 158 x 170
+10 frames left , 10 frames right
+
+spaceship_3
+
+size 164 x 148
+10 frames left , 10 frames right
+
+spaceship_4
+
+size 134 x 120
+10 frames left , 10 frames right
+
+sidekick / option
+
+size 65 x 74 , 65 x 75
+19 frames
+
+missle_1
+size 51 x 94
+13 frames
+
+missle_2
+size 48 x 103
+13 frames
+
+bullet_1
+size
+78 x 80
+
+bullet_2
+size 48 x 132
+
+bullet_3
+size 60 x 65
+8 frames
+
+bullet_4
+size 48 x 51
+8 frames
+
+bullet_5
+size 42 x 46
+8 frames
+
+thurst_1
+size 97 x 78
+11 frames
+
+thurst_2_round
+size 120 x 120
+1 frames
+
+muzzle_fx _ blue
+size 92 x 102
+18 frames
+
+muzzle_fx _ red
+size 101  x 91
+18 frames
+
+powerups
+size 68 x 67
+16 frames
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
