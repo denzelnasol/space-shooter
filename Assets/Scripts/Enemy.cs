@@ -18,6 +18,14 @@ public class Enemy : MonoBehaviour
         rb.velocity = new Vector2(0, -speed);
     }
 
+    void Update()
+    {
+        if (gameObject.transform.position.y < -6)
+        {
+            Destroy(gameObject);
+        }
+    }
+
     private void OnTriggerEnter2D(Collider2D hitInfo)
     {
         PlayerCharacter player = hitInfo.GetComponent<PlayerCharacter>();

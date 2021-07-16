@@ -15,12 +15,6 @@ public class SpawnEnemy : MonoBehaviour
         InvokeRepeating("Spawn", spawnTime, spawnTime);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     void Spawn()
     {
         randomX = Random.Range(-9, 9);

@@ -8,9 +8,8 @@ public class playerControls : MonoBehaviour
     float leftMove = 0f;
     float rightMove = 0f;
 
-    public Animator animator;
+    public Animator playerAnimator;
     public Rigidbody2D rb;
-
 
     Vector2 movement;
 
@@ -24,10 +23,10 @@ public class playerControls : MonoBehaviour
     void FixedUpdate()
     {
         leftMove = Input.GetAxisRaw("Horizontal") * moveSpeed;
-        animator.SetFloat("Speed", Mathf.Abs(leftMove));
+        playerAnimator.SetFloat("Speed", Mathf.Abs(leftMove));
 
         rightMove = Input.GetAxisRaw("Horizontal") * moveSpeed;
-        animator.SetFloat("Speed", rightMove);
+        playerAnimator.SetFloat("Speed", rightMove);
 
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
     }
