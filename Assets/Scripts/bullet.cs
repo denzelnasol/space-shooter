@@ -18,13 +18,16 @@ public class bullet : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D hitInfo)
     {
         Enemy enemy = hitInfo.GetComponent<Enemy>();
+        PlayerCharacter player = hitInfo.GetComponent<PlayerCharacter>();
         if (enemy != null)
         {
             enemy.TakeDamage(damage);
         }
-
-        Instantiate(impactEffect, transform.position, transform.rotation);
-        Destroy(gameObject);
+        if (player == null)
+        {
+            Instantiate(impactEffect, transform.position, transform.rotation);
+            Destroy(gameObject);
+        }
 
     }
 
